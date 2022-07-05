@@ -24,7 +24,7 @@ def func4(num1, num2):
     return "{son1} = {son2}".format(son2=num2, son1=num1)
 
 
-def func5(x, y=2):
+def func5(4x, y=2):
     """sonlarni x va y ning kvadaratini aniqlovchi funksiya"""
     return f'{x ** y}'
 
