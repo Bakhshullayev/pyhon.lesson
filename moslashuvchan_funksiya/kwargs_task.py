@@ -2,11 +2,8 @@
 Talabaning ismi va familiyasi majburiy argument,
 qolgan ma'lumotlar esa ixtiyoriy ko'rinishda istalgancha berilishi mumkin bo'lsin."""
 
-
-def foydalanuvchi(ism, familya, **malumotlar):
+def foydalanuvchi(ism, familya,**malumotlar):
     malumotlar['ism'] = ism
     malumotlar['familya'] = familya
     return malumotlar
-
-
-print(foydalanuvchi('ogabek'.title(), 'baxshullayev'.title(), yosh=20, manzil='Buxoro viloyati'))
+print(foydalanuvchi('ogabek'.title(),'baxshullayev'.title(),yosh = 20, manzil = 'Buxoro viloyati'))
