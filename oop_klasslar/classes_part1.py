@@ -32,5 +32,5 @@ class User():
         return f"Foydalanuvchi: {self.ism()},{self.surname},{self.email},{self.number},"
 
 
-user_1 = User("Ogabek", "Baxshullayev", "aser669969", 996699069)
+user_1 = User("Ogabek","Baxshullayev","aser669969",996699069)
 print(user_1)
